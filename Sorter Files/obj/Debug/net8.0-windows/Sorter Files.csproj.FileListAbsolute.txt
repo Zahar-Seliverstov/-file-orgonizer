@@ -1,0 +1,15 @@
+D:\file-orgonizer\Sorter Files\obj\Debug\net8.0-windows\Sorter Files.GeneratedMSBuildEditorConfig.editorconfig
+D:\file-orgonizer\Sorter Files\obj\Debug\net8.0-windows\Sorter Files.AssemblyInfoInputs.cache
+D:\file-orgonizer\Sorter Files\obj\Debug\net8.0-windows\Sorter Files.AssemblyInfo.cs
+D:\file-orgonizer\Sorter Files\obj\Debug\net8.0-windows\Sorter Files.csproj.CoreCompileInputs.cache
+D:\file-orgonizer\Sorter Files\obj\Debug\net8.0-windows\Sorter Files.sourcelink.json
+D:\file-orgonizer\Sorter Files\bin\Debug\net8.0-windows\Sorter Files.exe
+D:\file-orgonizer\Sorter Files\bin\Debug\net8.0-windows\Sorter Files.deps.json
+D:\file-orgonizer\Sorter Files\bin\Debug\net8.0-windows\Sorter Files.runtimeconfig.json
+D:\file-orgonizer\Sorter Files\bin\Debug\net8.0-windows\Sorter Files.dll
+D:\file-orgonizer\Sorter Files\bin\Debug\net8.0-windows\Sorter Files.pdb
+D:\file-orgonizer\Sorter Files\obj\Debug\net8.0-windows\Sorter Files.dll
+D:\file-orgonizer\Sorter Files\obj\Debug\net8.0-windows\refint\Sorter Files.dll
+D:\file-orgonizer\Sorter Files\obj\Debug\net8.0-windows\Sorter Files.pdb
+D:\file-orgonizer\Sorter Files\obj\Debug\net8.0-windows\Sorter Files.genruntimeconfig.cache
+D:\file-orgonizer\Sorter Files\obj\Debug\net8.0-windows\ref\Sorter Files.dll

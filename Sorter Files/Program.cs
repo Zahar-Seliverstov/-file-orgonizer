@@ -1,45 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
-
+using System.Windows.Forms;
 
 namespace Sorter_Files
 {
     internal class Program
     {
-        public static string GetUserDirectoryPath()
-        {
-            Console.Clear();
-            Console.Write("Enter path: ");
-
-            string path = Console.ReadLine();
-            if (!Directory.Exists(path) || string.IsNullOrEmpty(path))
-            {
-                Console.WriteLine("Path is not correct\n_Press any key to continue_");
-                Console.ReadKey();
-                GetUserDirectoryPath();
-            }
-            else Console.WriteLine("Path successfully chosen");
-            return path;
-        }
         public static List<string> GetFilesInDirectory(string directoryPath)
         {
             List<string> directoryFiles = new List<string>();
             List<string> filesPathInDirectory = new List<string>(Directory.GetFiles(directoryPath));
-            int count = 0;
             foreach (string file in filesPathInDirectory)
             {
                 if (File.Exists(file))
                 {
                     directoryFiles.Add(Path.GetFileName(file));
                 }
-                else
-                {
-                    count++;
-                }
             }
-            if (count == directoryFiles.Count)
+            if (directoryFiles.Count == 0)
             {
                 Console.WriteLine("Current directory is empty\n_Press any key to continue_");
                 Console.ReadKey();
@@ -98,6 +79,39 @@ namespace Sorter_Files
                 }
             }
         }
+        public static string GetUserDirectoryPath()
+        {
+            string path = "";
+            var ofd = new FolderBrowserDialog
+            {
+                SelectedPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).ToString() + "\\"
+            };
+            Console.Clear();
+            Console.Write("Select folder to open window. . .");
+            try
+            {
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    path = ofd.SelectedPath;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error to opening dialog window\n{ex}");
+            }
+            Console.Clear();
+            if (!Directory.Exists(path) || string.IsNullOrEmpty(path))
+            {
+                Console.Clear();
+                Console.WriteLine("Path is not correct\nPress any key to continue");
+                Console.ReadKey();
+                GetUserDirectoryPath();
+            }
+            else Console.WriteLine($"Path successfully chosen\nPath: {path}");
+            return path;
+        }
+
+        [STAThread]
         public static void Main()
         {
             Dictionary<string, List<string>> directoryExtensions = new Dictionary<string, List<string>>
@@ -137,17 +151,13 @@ namespace Sorter_Files
                        ".tgz", ".tbz2", ".txz", ".lz", ".tlz", ".s7z", ".cab", ".lha" } },
 
                  { "Installer", new List<string>
-                     { ".torrent", ".msi", ".exe", ".deb", ".rpm", ".dmg", ".pkg", ".bin", ".apk", ".ipa" } },
-
-                 { "Other", new List<string>{} }
+                     { ".torrent", ".msi", ".exe", ".deb", ".rpm", ".dmg", ".pkg", ".bin", ".apk", ".ipa" } }
             };
 
             string directoryPath = GetUserDirectoryPath();
 
             List<string> directoryFiles = GetFilesInDirectory(directoryPath);
-
             CreateDirectories(directoryFiles, directoryExtensions, directoryPath);
-
             CategorizeFiles(directoryFiles, directoryExtensions, directoryPath);
 
         }
