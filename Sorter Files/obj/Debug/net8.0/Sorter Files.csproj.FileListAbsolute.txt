@@ -1,0 +1,14 @@
+C:\myProjects\C#\sorter_files\Sorter Files\obj\Debug\net8.0\Sorter Files.GeneratedMSBuildEditorConfig.editorconfig
+C:\myProjects\C#\sorter_files\Sorter Files\obj\Debug\net8.0\Sorter Files.AssemblyInfoInputs.cache
+C:\myProjects\C#\sorter_files\Sorter Files\obj\Debug\net8.0\Sorter Files.AssemblyInfo.cs
+C:\myProjects\C#\sorter_files\Sorter Files\obj\Debug\net8.0\Sorter Files.csproj.CoreCompileInputs.cache
+C:\myProjects\C#\sorter_files\Sorter Files\bin\Debug\net8.0\Sorter Files.exe
+C:\myProjects\C#\sorter_files\Sorter Files\bin\Debug\net8.0\Sorter Files.deps.json
+C:\myProjects\C#\sorter_files\Sorter Files\bin\Debug\net8.0\Sorter Files.runtimeconfig.json
+C:\myProjects\C#\sorter_files\Sorter Files\bin\Debug\net8.0\Sorter Files.dll
+C:\myProjects\C#\sorter_files\Sorter Files\bin\Debug\net8.0\Sorter Files.pdb
+C:\myProjects\C#\sorter_files\Sorter Files\obj\Debug\net8.0\Sorter Files.dll
+C:\myProjects\C#\sorter_files\Sorter Files\obj\Debug\net8.0\refint\Sorter Files.dll
+C:\myProjects\C#\sorter_files\Sorter Files\obj\Debug\net8.0\Sorter Files.pdb
+C:\myProjects\C#\sorter_files\Sorter Files\obj\Debug\net8.0\Sorter Files.genruntimeconfig.cache
+C:\myProjects\C#\sorter_files\Sorter Files\obj\Debug\net8.0\ref\Sorter Files.dll
