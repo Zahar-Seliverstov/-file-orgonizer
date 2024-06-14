@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\file-orgonizer\\Sorter Files\\Sorter Files.csproj": {}
+    "C:\\myProjects\\file-orgonizer\\Sorter Files\\Sorter Files.csproj": {}
   },
   "projects": {
-    "D:\\file-orgonizer\\Sorter Files\\Sorter Files.csproj": {
+    "C:\\myProjects\\file-orgonizer\\Sorter Files\\Sorter Files.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file-orgonizer\\Sorter Files\\Sorter Files.csproj",
+        "projectUniqueName": "C:\\myProjects\\file-orgonizer\\Sorter Files\\Sorter Files.csproj",
         "projectName": "Sorter Files",
-        "projectPath": "D:\\file-orgonizer\\Sorter Files\\Sorter Files.csproj",
-        "packagesPath": "C:\\Users\\Seliv_zh92\\.nuget\\packages\\",
-        "outputPath": "D:\\file-orgonizer\\Sorter Files\\obj\\",
+        "projectPath": "C:\\myProjects\\file-orgonizer\\Sorter Files\\Sorter Files.csproj",
+        "packagesPath": "C:\\Users\\Suchmypin\\.nuget\\packages\\",
+        "outputPath": "C:\\myProjects\\file-orgonizer\\Sorter Files\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Seliv_zh92\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Suchmypin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
@@ -40,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -64,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

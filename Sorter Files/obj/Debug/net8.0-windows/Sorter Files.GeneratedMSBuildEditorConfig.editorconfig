@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Sorter_Files
-build_property.ProjectDir = D:\file-orgonizer\Sorter Files\
+build_property.ProjectDir = C:\myProjects\file-orgonizer\Sorter Files\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
